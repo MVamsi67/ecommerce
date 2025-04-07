@@ -6,10 +6,10 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start(); // Start session only if not already started
 }
 
-$host = 'sql310.infinityfree.com'; 
-$dbname = 'if0_38445318_ecommerce';
-$username = 'if0_38445318';
-$password = 'N8N42gC3Wv';
+$host = 'xxxxxxxxxxxx'; 
+$dbname = 'xxxxxxxxxxxxxx';
+$username = 'xxxxxxxxxxxxxxxx';
+$password = 'xxxxxxxxxxxxx';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
